@@ -1,0 +1,86 @@
+
+.navi {
+    background-color: #43599a !important;
+    padding-inline: 1.5rem;
+    min-height: 4.5rem;
+}
+
+.antonFont {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navIcon {
+    font-size: 1.5rem;
+    display: flex;
+    background-color: transparent;
+    border: none;
+}
+
+.navIcon:hover,
+.navIcon:focus {
+    background: transparent;
+}
+.userIcon {
+    color: black;
+    font-size: 1.3rem;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    position: relative;
+}
+.userIcon p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.about {
+    text-align: justify;
+    margin-left: 100px;
+
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+.btn-dark {
+    background-color: #43599a !important;
+}
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.img-card-top {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 200px;
+    border-radius: 7px;
+}
+
+.card {
+    background-color: #dedee1;
+    min-height: 500px;
+    padding-top: 8px;
+}
+
+.card-footer {
+    background-color: #c7c7ca;
+    min-height: 6vh;
+}
+
